@@ -15,9 +15,9 @@ Responsive design layout is like a magic trick for websites and web apps. It's t
 
 ## **Prerequisite**
 
-* A solid understanding of HTML and the CSS Box model
+* A solid understanding of HTML and the CSS Box model.
     
-* Limited or no prior experience in responsive web design and CSS-based layout systems
+* Limited or no prior experience in responsive web design and CSS-based layout systems.
     
 
 ## **i) Introduction to Responsive Web Design**
@@ -183,8 +183,8 @@ Responsive Design is a must in today’s web design and development field. Media
 
 **RECOMMENDED RESOURCES**
 
-Practice along with [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+Practice along with [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/).
 
-[Master Responsive Web Design CSS Grid, Flexbox & Animation](https://www.udemy.com/share/1072T83@iWQXm9WJOqvzY74EdDmo1gefvZ5HHQXBvYBBecbdGQQR946kfkOqpp_T--BYs1mmmw==/) by Norbert B. Menyhart on Udemy
+[Master Responsive Web Design CSS Grid, Flexbox & Animation](https://www.udemy.com/share/1072T83@iWQXm9WJOqvzY74EdDmo1gefvZ5HHQXBvYBBecbdGQQR946kfkOqpp_T--BYs1mmmw==/) by Norbert B. Menyhart on Udemy.
 
 Thanks for reading. I would love to connect with you. Connect with me on [X(Twitter)](https://twitter.com/EkunkeEbenezer?t=tW6464K0mmyhbk4XVtv50A&s=09) and [LinkedIn](https://www.linkedin.com/in/ebenezer-ekunke-65a1581a2). I'd appreciate your feedback, so please like and comment with your thoughts. If you found this article very helpful, do well to share it with others and subscribe to my newsletter below.
