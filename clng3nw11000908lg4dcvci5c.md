@@ -179,7 +179,7 @@ It's worth noting that breakpoints can vary, as there are no universally standar
 
 ## **Conclusion**
 
-Responsive Design is a must in today’s web design and development field. Media queries are one of the most important parts of building responsive layouts, and I hope you found this article helpful in understanding how media queries work. For more information and better understanding, visit [W3Schools](https://www.w3schools.com/css/css_rwd_intro.asp) for more information on everything you need to know and understand about media query and frontend development.
+Responsive Design is a must in today’s web design and development field. Media queries are one of the most important parts of building responsive layouts, and I hope you found this article helpful in understanding how media queries work. For better understanding, visit [W3Schools](https://www.w3schools.com/css/css_rwd_intro.asp) for more information on everything you need to know and understand about media query and frontend development.
 
 **RECOMMENDED RESOURCES**
 
