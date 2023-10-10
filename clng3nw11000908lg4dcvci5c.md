@@ -11,7 +11,7 @@ tags: media-queries, css, web-development, frontend-development, responsive-web-
 
 ---
 
-Responsive design layout is like a magic trick for websites and web apps. It's the way they adjust themselves to fit nicely on different screens, like tablets, phones, laptops, and desktop computers. This way, no matter what kind of screen you're using, the website or app will arrange its contents to look great. In this guide, we will dive through different methods of achieving responsive design but will focus on media queries for this article and others in subsequent documentation under this series.
+Responsive design layout is like a magic trick for websites and web apps. It's the way they adjust themselves to fit nicely on different screens, like tablets, phones, laptops, and desktop computers. This way, no matter what kind of screen you're using, the website or app will arrange its contents to look great. In this guide, we will dive through different methods of achieving responsive design but will focus on media queries for this article, and others in subsequent documentation under this series.
 
 ## **Prerequisite**
 
