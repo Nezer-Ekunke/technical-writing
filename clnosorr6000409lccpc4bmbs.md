@@ -34,11 +34,11 @@ CSS layouts are essential in web development, as they organize web page structur
 
 1. **Normal flow:** Normal flow is the default way a web page renders an HTML code when only HTML controls the layout of the page. The default display property is block. Read more about the normal flow [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow).
     
-2. **Flexbox** This layout method helps to lay out contents in a 1-dimensional format along either a row or column. To achieve this, the display on the stylesheet must be set to flex (i.e. display: flex;). We will explore Flexbox later in this article but visit this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout) to read the official documentation of Flexbox layout.
+2. **Flexbox:** This layout method helps to lay out contents in a 1-dimensional format along either a row or column. To achieve this, the display on the stylesheet must be set to flex (i.e. display: flex;). We will explore Flexbox later in this article but visit this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout) to read the official documentation of Flexbox layout.
     
-3. **Grid** In contrast to the 1-dimensional layout of Flexbox, Grid is a 2-dimensional layout system for web pages. It displays content both in rows and columns together. The Grid layout system accomplishes many other beautiful features. You can find more [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids).
+3. **Grid:** In contrast to the 1-dimensional layout of Flexbox, Grid is a 2-dimensional layout system for web pages. It displays content both in rows and columns together. The Grid layout system accomplishes many other beautiful features. You can find more [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids).
     
-4. **Floats** This property aligns images with text by wrapping the text around the images either to the left or to the right depending on the float direction you set it to. [Read more](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) here.
+4. **Floats:** This property aligns images with text by wrapping the text around the images either to the left or to the right depending on the float direction you set it to. [Read more](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) here.
     
 
 ## **CSS Flexbox and its properties**
@@ -101,8 +101,6 @@ Notice the arrow direction telling the direction in which the contents are align
 ### **2)    Flex-wrap property**
 
 The wrap property helps flex items to wrap into many lines as flex items by default will be on one line. This property would make them respond to screen sizing so that as the screen reduces, the items wrap into various lines making them responsive.
-
-  
 
 **Properties of flex-wrap include;**
 
