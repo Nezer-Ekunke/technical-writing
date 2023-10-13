@@ -188,3 +188,7 @@ Practice along with [freeCodeCamp](https://www.freecodecamp.org/learn/2022/respo
 [Master Responsive Web Design CSS Grid, Flexbox & Animation](https://www.udemy.com/share/1072T83@iWQXm9WJOqvzY74EdDmo1gefvZ5HHQXBvYBBecbdGQQR946kfkOqpp_T--BYs1mmmw==/) by Norbert B. Menyhart on Udemy.
 
 Thanks for reading. I would love to connect with you. Connect with me on [X(Twitter)](https://twitter.com/EkunkeEbenezer?t=tW6464K0mmyhbk4XVtv50A&s=09) and [LinkedIn](https://www.linkedin.com/in/ebenezer-ekunke-65a1581a2). I'd appreciate your feedback, so please like and comment with your thoughts. If you found this article very helpful, do well to share it with others and subscribe to my newsletter below.
+
+*In our next article, we are going to be talking about the layout systems for responsive design, starting with CSS Flexbox.* [**Click here**](https://nezer.hashnode.dev/mastering-responsive-web-design-for-seamless-user-experiences-css-flexbox-part-a-clnosorr6000409lccpc4bmbs) *to read it.*
+
+See you on the next one!
