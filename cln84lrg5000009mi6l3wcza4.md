@@ -19,7 +19,9 @@ To make sense of this guide, you should know the basics of how websites function
 
 ## i) Introduction to HTML5
 
-HTML5 is the fifth major version of HTML (HyperText Markup Language) used on the internet. It was first created and published in January 2008 and became widely used between 2008 and 2012. It was officially recommended by W3C in 2014. Before HTML5, there were earlier versions of HTML (1-4). You can tell you're using HTML5 by starting your document with the `<!DOCTYPE html>` declaration. This tells the web browser that you're using HTML5 for your code. Read more about HTML on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)[.](https://www.w3schools.com/html/default.asp)
+HTML5 is the fifth major version of HTML (HyperText Markup Language) used on the internet. It was first created and published in January 2008 and became widely used between 2008 and 2012. It was officially recommended by W3C in 2014. Before HTML5, there were earlier versions of HTML (1-4).
+
+You can tell you're using HTML5 by starting your document with the `<!DOCTYPE html>` declaration. This tells the web browser that you're using HTML5 for your code. Read more about HTML on [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)[.](https://www.w3schools.com/html/default.asp)
 
 ```abap
 <!DOCTYPE html>
@@ -50,7 +52,9 @@ HTML tags serve as directives that provide instructions to a web browser regardi
 
 ### A) Opening and closing tags in HTML
 
-Most HTML tags have both an opening and a closing tag. These tags are denoted by the use of angle brackets, '&lt;' and '&gt;', with the tag command enclosed within for the opening tag, and the same symbols with a '/' (forward slash) before the command followed by '&gt;' for the closing tag. For example, `<head>` represents an opening tag, and `</head>` represents a closing tag. Any content enclosed between the opening and closing 'head' tags is treated as a 'head' element and is not displayed on the web page by the browser.
+Most HTML tags have both an opening and a closing tag. These tags are denoted by the use of angle brackets, '&lt;' and '&gt;', with the tag command enclosed within for the opening tag, and the same symbols with a '/' (forward slash) before the command followed by '&gt;' for the closing tag.
+
+For example, `<head>` represents an opening tag, and `</head>` represents a closing tag. Any content enclosed between the opening and closing 'head' tags is treated as a 'head' element and is not displayed on the web page by the browser.
 
 ```xml
 <!DOCTYPE html>
@@ -221,7 +225,9 @@ Formatting tags in HTML are used to apply various styles, formatting, and visual
 5. Superscript tag: Displays text as `<sup>` superscript `</sup>` (above the baseline).
     
 
-These formatting tags allow web developers to style text and content in various ways to enhance readability and user experience. When combined with CSS (Cascading Style Sheets), HTML formatting tags provide extensive control over the visual presentation of web content. Now let’s use the following tag to format a web page by repeating the same sentences and commands as code.
+These formatting tags allow web developers to style text and content in various ways to enhance readability and the user experience. When combined with CSS (Cascading Style Sheets), HTML formatting tags provide extensive control over the visual presentation of web content.
+
+Now let’s use the following tag to format a web page by repeating the same sentences and commands as code.
 
 ```xml
 <!DOCTYPE html>
@@ -273,7 +279,9 @@ Observe that the text link is encompassed by the anchor tag in the code editor, 
 
 ### D) List tags
 
-The `<li>` tag displays the content of a list nested within one of two HTML list types: the unordered list `<ul>` and the ordered list `<ol>`. The unordered list, as the name suggests, is unstructured and represented by bullet points. In contrast, the ordered list is organized in ascending order, using Arabic numerals (1-9). Please refer to the illustration below for a visual example.
+The `<li>` tag displays the content of a list nested within one of two HTML list types: the unordered list `<ul>` and the ordered list `<ol>`. The unordered list, as the name suggests, is unstructured and represented by bullet points. In contrast, the ordered list is organized in ascending order, using Arabic numerals (1-9).
+
+Please refer to the illustration below for a visual example.
 
 ```xml
 <!DOCTYPE html>
