@@ -11,7 +11,9 @@ tags: flexbox, css, frontend-development, responsive-web-design, flex-container
 
 ---
 
-Welcome to our second in the series on “**Mastering Responsive Web Design for Seamless User Experiences,”** for this module we will begin with the layouts systems starting with Flexbox. In this guide, you will learn the fundamental principles of Flexbox, a powerful layout model that simplifies web design. We will explore how to structure and align elements, ensuring your web pages adapt seamlessly to various screen sizes. Whether a beginner or an experienced developer, this resource will empower you to craft dynamic and responsive web layouts. Let's dive in and enhance your web design skills with Flexbox.
+Welcome to our second in the series on “**Mastering Responsive Web Design for Seamless User Experiences."** For this module, we will begin with the layout systems, starting with Flexbox. In this guide, you will learn the fundamental principles of Flexbox, a powerful layout model that simplifies web design.
+
+We will explore how to structure and align elements, ensuring your web pages adapt seamlessly to various screen sizes. Whether a beginner or an experienced developer, this resource will empower you to craft dynamic and responsive web layouts. Let's dive in and enhance your web design skills with Flexbox.
 
 ## **Prerequisites**
 
@@ -32,13 +34,13 @@ CSS layouts are essential in web development, as they organize web page structur
 
 ## **CSS layout systems**
 
-1. **Normal flow:** Normal flow is the default way a web page renders an HTML code when only HTML controls the layout of the page. The default display property is block. Read more about the normal flow [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow).
+1. **Normal flow:** Normal flow is the default way a web page renders HTML code when only HTML controls the layout of the page. The default display property is block. Read more about the normal flow [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow).
     
-2. **Flexbox:** This layout method helps to lay out contents in a 1-dimensional format along either a row or column. To achieve this, the display on the stylesheet must be set to flex (i.e. display: flex;). We will explore Flexbox later in this article but visit this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout) to read the official documentation of Flexbox layout.
+2. **Flexbox:** This layout method helps to lay out contents in a 1-dimensional format along either a row or column. To achieve this, the display on the stylesheet must be set to flex (i.e. display: flex;). We will explore Flexbox later in this article, but visit this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout) to read the official documentation of Flexbox layout.
     
-3. **Grid:** In contrast to the 1-dimensional layout of Flexbox, Grid is a 2-dimensional layout system for web pages. It displays content both in rows and columns together. The Grid layout system accomplishes many other beautiful features. You can find more [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids).
+3. **Grid:** In contrast to the 1-dimensional layout of Flexbox, Grid is a 2-dimensional layout system for web pages. It displays content both in rows and columns together. The grid layout system accomplishes many other beautiful features. You can find more [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids).
     
-4. **Floats:** This property aligns images with text by wrapping the text around the images either to the left or to the right depending on the float direction you set it to. [Read more](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) here.
+4. **Floats:** This property aligns images with text by wrapping the text around the images either to the left or to the right, depending on the float direction you set it to. [Read more](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) here.
     
 
 ## **CSS Flexbox and its properties**
@@ -49,7 +51,7 @@ Flexbox makes it easier to handle layout challenges like aligning items, distrib
 
 * ## **Flex Containers**
     
-    To use Flexbox, start by creating a flex container (often a div in HTML) that holds flex items. Below is an illustration of how to set a flex container using a div, and if you look in-depth you will also notice the flex items nested into the container.
+    To use Flexbox, start by creating a flex container (often a div in HTML) that holds flex items. Below is an illustration of how to set a flex container using a div, and if you look in-depth, you will also notice the flex items nested into the container.
     
 
 ```xml
@@ -65,7 +67,7 @@ Flexbox makes it easier to handle layout challenges like aligning items, distrib
             </div>
 ```
 
-Below are flex properties that are directed to the Flexbox container;
+Below are flex properties that are directed to the Flexbox container:
 
 ### **1)    Flexbox direction**
 
@@ -75,9 +77,9 @@ Flexbox direction can be set to either row or column. Row is the default directi
     
 * `row-reverse`**:** this is the opposite of a row, where alignment is from left to right but starting from the last to the first item.
     
-* `column`**:** when aligned as columns, they arrange themselves from top to bottom starting from the first to the last item.
+* `column`**:** when aligned as columns, they arrange themselves from top to bottom, starting from the first to the last item.
     
-* `column-reverse`**:** like row-reverse, this is the opposite of column. Here, the alignment of items is from top to bottom but starting from the last to the first item.
+* `column-reverse`**:** like row-reverse, this is the opposite of column. Here, the alignment of items is from top to bottom, starting from the last to the first item.
     
     ```css
     .flexbox-container{
@@ -96,19 +98,19 @@ The following images would help in the understanding of flex-direction.
 
 Image source….[CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-direction)
 
-Notice the arrow direction telling the direction in which the contents are aligned. 1= row, 2= row-reverse, 3= column, 4= column-reverse.
+Notice the arrow direction, which indicates the direction in which the contents are aligned. 1= row, 2= row-reverse, 3= column, 4= column-reverse.
 
 ### **2)    Flex-wrap property**
 
-The wrap property helps flex items to wrap into many lines as flex items by default will be on one line. This property would make them respond to screen sizing so that as the screen reduces, the items wrap into various lines making them responsive.
+The wrap property helps flex items wrap into many lines, as flex items by default will be on one line. This property would make them respond to screen sizing so that as the screen reduces, the items wrap into various lines, making them responsive.
 
-**Properties of flex-wrap include;**
+**Properties of flex-wrap include:**
 
 * `nowrap`(default)**:** this is the default wrap property, as flex items align themselves to only one line and will not be responsive to screen sizes.
     
 * `wrap`**:** this property makes flex items wrapped into many lines from top to bottom.
     
-* `wrap-reverse`**:** this is the opposite of the wrap property in direction as it wraps flex items into many lines from bottom to top.
+* `wrap-reverse`**:** this is the opposite of the wrap property in direction, as it wraps flex items into many lines from bottom to top.
     
     ```css
     .flexbox-container{
@@ -124,7 +126,7 @@ Refer to [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa
 
 ### **3)    Flex-flow property**
 
-The flex-flow property is a shorthand for defining both the flex-direction and flex-wrap property as one. It can be any of the following:
+The flex-flow property is a shorthand for defining both the flex-direction and flex-wrap properties as one. It can be any of the following:
 
 ![Visual demonstration of the flex flow property](https://cdn.hashnode.com/res/hashnode/image/upload/v1696972308801/88004418-f387-4220-81f0-e686c9345c7e.png align="center")
 
@@ -143,9 +145,9 @@ The gap property is used to specify the amount of space between one flex item an
 
 ### **5) Justify content**
 
-This property aligns content across the main axis of the screen. Now to understand this better, in flexbox and grid, you will often hear the terms main and cross axis, in real-life scenarios you can refer to the main axis as the x-axis on a graph as it aligns items from left to right. Justify content has its properties and I will explain them below.
+This property aligns content across the main axis of the screen. To understand this better, in flexbox and grid, you will often hear the terms main and cross axis. In real-life scenarios, you can refer to the main axis as the x-axis on a graph as it aligns items from left to right. Justify content has its properties, and I will explain them below.
 
-* **flex-start** (default)**:** by default, we style every flex item as flex-start, this will align items towards the start of the flex-direction of choice. For demonstration purposes, the direction of choice chosen in our demonstration is row. Check out the alignment in the image below.
+* **flex-start** (default)**:** by default, we style every flex item as flex-start; this will align items towards the start of the flex-direction of choice. For demonstration purposes, the direction of choice chosen in our demonstration is row. Check out the alignment in the image below.
     
     ![Justify Content: Flex Start](https://cdn.hashnode.com/res/hashnode/image/upload/v1696972803409/117af223-dffd-4d1d-ba5b-2090d276e014.png align="center")
     
@@ -158,11 +160,11 @@ This property aligns content across the main axis of the screen. Now to understa
     
     ![Justify Content: Center](https://cdn.hashnode.com/res/hashnode/image/upload/v1696972963329/23847129-31cd-4ab8-a8da-b9827eb72d7c.png align="center")
     
-* **space-between:** space between as the name implies creates equal spaces in between the items, leaving the item spanned across the direction of flex, but little or no space around the items.
+* **space-between:** space-between, as the name implies, creates equal spaces in between the items, leaving the item spanned across the direction of flex but little or no space around the items.
     
     ![Justify Content: Space Between](https://cdn.hashnode.com/res/hashnode/image/upload/v1696973005903/ed40b2be-4279-4bd4-a42b-41698e5213e9.png align="center")
     
-* **space-around:** this property is almost the same as space between, it creates equal space between the items and equal space around them, but take note that the space between the items and the space around the items are not equal.
+* **space-around:** this property is almost the same as space between; it creates equal space between the items and equal space around them, but take note that the space between the items and the space around the items are not equal.
     
     ![Justify Content: Space Around](https://cdn.hashnode.com/res/hashnode/image/upload/v1696973044816/97ecf0e9-dafa-4da0-9d16-a4a579577cc5.png align="center")
     
@@ -170,12 +172,12 @@ This property aligns content across the main axis of the screen. Now to understa
     
     ![Justify Content: Space Evenly](https://cdn.hashnode.com/res/hashnode/image/upload/v1696973097896/9693c8ab-f35b-4459-b846-35db010dcf45.png align="center")
     
-    Image source from [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-direction). Visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) docs for detailed charts on their compatibility with various web browsers.
+    Image source: [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-direction). Visit [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) Docs for detailed charts on their compatibility with various web browsers.
     
 
 ### 6)    Align items
 
-The align-items property unlike the justify-content property aligns flex items across the cross-axis (y-axis in graphical illustrations) or vertical axis. The following are properties of align-items;
+The align-items property, unlike the justify-content property, aligns flex items across the cross-axis (y-axis in graphical illustrations) or vertical axis. The following are properties of align-items:
 
 * **flex-start:** Like `flex-start` in `justify-content`, `flex-start` in `align-items` positions items at the beginning of the chosen direction.
     
