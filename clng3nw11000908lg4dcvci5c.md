@@ -11,7 +11,9 @@ tags: media-queries, css, web-development, frontend-development, responsive-web-
 
 ---
 
-Responsive design layout is like a magic trick for websites and web apps. It's the way they adjust themselves to fit nicely on different screens, like tablets, phones, laptops, and desktop computers. This way, no matter what kind of screen you're using, the website or app will arrange its contents to look great. In this guide, we will dive through different methods of achieving responsive design but will focus on media queries for this article, and others in subsequent documentation under this series.
+Responsive design layout is like a magic trick for websites and web apps. It's the way they adjust themselves to fit nicely on different screens, like tablets, phones, laptops, and desktop computers. This way, no matter what kind of screen you're using, the website or app will arrange its contents to look great.
+
+In this guide, we will dive through different methods of achieving responsive design but will focus on media queries for this article, and others in subsequent documentation under this series.
 
 ## **Prerequisite**
 
@@ -42,7 +44,11 @@ Source: [w3schools](https://www.w3schools.com/html/html_responsive.asp)
 
 ### **A) Relevance of responsive web design to web development**
 
-Responsive web design is important for web developers because it helps make websites look good and work well on all kinds of devices, like big computers and small phones. It's like making sure your clothes fit you no matter if you're big or small. This is essential because people use all sorts of gadgets to browse the web, and we want everyone to have a good experience. It also helps websites show up better in search engines like Google, which is like making your lemonade stand easy to find in a big park. Responsive design makes it easier for developers to build websites that everyone can use, no matter what kind of device they have.
+Responsive web design is important for web developers because it helps make websites look good and work well on all kinds of devices, like big computers and small phones. It's like making sure your clothes fit you, no matter if you're big or small.
+
+This is essential because people use all sorts of gadgets to browse the web, and we want everyone to have a good experience. It also helps websites show up better in search engines like Google, which is like making your lemonade stand easy to find in a big park.
+
+Responsive design makes it easier for developers to build websites that everyone can use, no matter what kind of device they have.
 
 ### B) **Methods of creating responsive web layouts**
 
@@ -103,7 +109,9 @@ Let's delve into the key components of media queries that play a pivotal role in
     
     Failure to specify a media type defaults the query to target all devices.
     
-    For example, if the goal is to apply the rules from the previous example (point 2) exclusively to screens, the code can be amended to include 'screen,' ensuring it solely applies to screen devices, excluding printers and speech. The declaration 'screen and (max-width: 480px)' signifies the targeting of screens with a width of 480px or less.
+    For example, if the goal is to apply the rules from the previous example (point 2) exclusively to screens, the code can be amended to include 'screen,' ensuring it solely applies to screen devices, excluding printers and speech.
+    
+    The declaration 'screen and (max-width: 480px)' signifies the targeting of screens with a width of 480px or less.
     
     ```css
     @media screen and (max-width: 480px) {
@@ -115,7 +123,9 @@ Let's delve into the key components of media queries that play a pivotal role in
     
 4. **Orientation:** This feature sets the rule for the content behavior along the browser orientation, usually as landscape or portrait.
     
-    Let's take for example, the default orientation of a mobile device as portrait and that of laptops are landscape. Now if the browser on a phone changes to landscape during auto-rotate, and a laptop user resizes the browser window, if the orientation feature is not applicable, contents may not align, but if the features are defined for both potrait and landscape, whatever mode the devices are been used, the contents align themselves following the preset rules.
+    Let's take, for example, the default orientation of a mobile device as portrait and that of laptops are landscape.
+    
+    Now if the browser on a phone changes to landscape during auto-rotate, and a laptop user resizes the browser window, if the orientation feature is not applicable, contents may not align, but if the features are defined for both potrait and landscape, whatever mode the devices are been used, the contents align themselves following the preset rules.
     
     Take for instance on portrait the image is set to a width of 100px for devices with a max-width of 480px (mobile devices) once the browser screen shrinks to this level, the image automatically resizes to 100px. But what happens when the browser is then rotated to landscape? This is where the orientation of landscape comes in, where the width is longer than the height.
     
