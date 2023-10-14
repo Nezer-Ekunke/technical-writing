@@ -308,7 +308,11 @@ Output:
 
 ### E) Table tags
 
-We're now going to talk about the last tag in this guide, which is the table tag. The `<table>` tag is used in HTML to create tables on web pages. It works together with other elements like `<thead>`, which stands for the table's heading. Inside `<thead>`, we use `<th>` tags to define the actual content of the table's header. Both `<thead>` and `<th>` are contained within the main `<table>` tag. Next, we have the `<tr>` tag, which represents rows in the table, and the `<td>` tag, which represents the actual data in those rows. These tags are all placed inside the `<table>` tag to structure the table properly. To be more specific, the `<th>` tag goes inside the `<thead>` tag, which is nested within the `<table>` tag. Similarly, the `<td>` tag, representing the data, is inside the `<tr>` tag, which, in turn, is nested within the `<table>` tag. For a clearer picture, take a look at the example below and practice to better understand.
+We're now going to talk about the last tag in this guide, which is the table tag. The `<table>` tag is used in HTML to create tables on web pages. It works together with other elements like `<thead>`, which stands for the table's heading. Inside `<thead>`, we use `<th>` tags to define the actual content of the table's header.
+
+Both `<thead>` and `<th>` are contained within the main `<table>` tag. Next, we have the `<tr>` tag, which represents rows in the table, and the `<td>` tag, which represents the actual data in those rows. These tags are all placed inside the `<table>` tag to structure the table properly.
+
+To be more specific, the `<th>` tag goes inside the `<thead>` tag, which is nested within the `<table>` tag. Similarly, the `<td>` tag, representing the data, is inside the `<tr>` tag, which, in turn, is nested within the `<table>` tag. For a clearer picture, take a look at the example below and practice to better understand.
 
 ```xml
 <!DOCTYPE html>
@@ -350,3 +354,5 @@ Output:
 ## Conclusion
 
 In this guide, you have gained a solid understanding of HTML tags, their purpose, and their usage. To enhance your comprehension, continue practicing and consult the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) and [W3Schools](https://www.w3schools.com/html/default.asp) for comprehensive information on these concepts. Additionally, explore further aspects of HTML for a deeper understanding.
+
+Is this interesting? Read my next article by clicking on this [link](https://nezer.hashnode.dev/mastering-responsive-web-design-for-seamless-user-experiences-media-query-clng3nw11000908lg4dcvci5c).
