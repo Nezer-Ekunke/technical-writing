@@ -243,6 +243,6 @@ Like align-items and justify-content above, align-content also has its propertie
 
 We have been able to cover the fundamentals of the CSS flexbox container in this article which is Part A in the flexbox module under this series, and thank you so much for reading thus far.
 
-*In our next article, we are going to be exploring Part B of this topic, which is the flex items (more like the children). Stay tuned by subscribing to my newsletter to be notified when it will be released.*
+*In our next article, we are going to be exploring Part B of this topic, which is the flex items (more like the children). Follow this* [*link*](https://nezer.hashnode.dev/mastering-responsive-web-design-for-seamless-user-experiences-css-flexbox-part-b) *to read about it.*
 
 See you on the next one!
