@@ -11,9 +11,9 @@ tags: flexbox, css, web-development, frontend-development, responsive-web-design
 
 ---
 
-Welcome to Part B of the topic “**Mastering Responsive Web Design for Seamless User Experiences: CSS Flexbox.”** In our preceding article, we talked about Flexbox, with a primary focus on the Flexbox container and its associated properties. In this module, we're diving deeper into Flexbox to focus on flex items, which make up the Flex container.
+Welcome to Part B of the topic “**Mastering Responsive Web Design for Seamless User Experiences: CSS Flexbox.”** In our [preceding article](https://nezer.hashnode.dev/mastering-responsive-web-design-for-seamless-user-experiences-css-flexbox-part-a-clnosorr6000409lccpc4bmbs), we talked about Flexbox, primarily focusing on the Flexbox container and its associated properties. In this module, we're diving deeper into Flexbox to focus on flex items, which make up the Flex container.
 
-We aim to show you how to structure and align flex items, as we did with flex containers. If you missed our previous discussion on flex containers or need more clarity, check out our earlier article via the link provided. This will give you a solid foundation to understand the topics in this current article.
+We aim to show you how to structure and align flex items, as we did with flex containers. If you missed our discussion on flex containers or need more clarity, check out our earlier article via the provided [link](https://nezer.hashnode.dev/mastering-responsive-web-design-for-seamless-user-experiences-css-flexbox-part-a-clnosorr6000409lccpc4bmbs). This will give you a solid foundation to understand the topics in this current article.
 
 ## **Prerequisites**
 
@@ -34,7 +34,7 @@ Flex items are children of the parent or flex container. They are the items that
 
 1. **Align self:** This property aligns individual flex items across the cross-axis inside the flex container. When this is set on a particular item, the value overrides the already existing align-item value. Take note that align-items targets all the items in a flex-container while align-self targets only one individual item.
     
-    The properties of align-items are the same as align-self, but in this case, individual items are targeted. For instance, if I want to display item-3 as flex-start and item-4 as flex-end, this would be the code and the result.
+    The properties of align-items are the same as align-self, but individual items are targeted in this case. For instance, if I want to display item-3 as flex-start and item-4 as flex-end, this would be the code and the result.
     
     ```css
     .flexbox-container .item-3{
@@ -95,4 +95,6 @@ Another resource you can check out is this full-fledged Udemy course on [Masteri
 
 *In our next article, we are going to explore the third topic in this series,* ***Mastering Responsive Web Design Layout for Seamless User Experiences***, which is the CSS Grid Layout. Stay tuned by subscribing to my newsletter to be notified when it is released.
 
-Thanks for reading. I would love to connect with you. Connect with me on [**X(Twitter)**](https://twitter.com/EkunkeEbenezer?t=tW6464K0mmyhbk4XVtv50A&s=09) and [**LinkedIn**](https://www.linkedin.com/in/ebenezer-ekunke-65a1581a2). I'd appreciate your feedback, so please like and comment with your thoughts. If you found this article very helpful, do well to share it with others. See you at the next one!
+Thanks for reading. I would love to connect with you. Connect with me on [**X(Twitter)**](https://twitter.com/EkunkeEbenezer?t=tW6464K0mmyhbk4XVtv50A&s=09) and [**LinkedIn**](https://www.linkedin.com/in/ebenezer-ekunke-65a1581a2). I'd appreciate your feedback, so please like and comment with your thoughts. If you found this article very helpful, do well to share it with others.
+
+See you at the next one!
