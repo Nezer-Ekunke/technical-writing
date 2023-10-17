@@ -91,7 +91,11 @@ In summary, mastering CSS Flexbox opens up new possibilities for web developers.
 
 Whether you're designing a simple blog layout or a complex multi-column dashboard, Flexbox ensures your designs remain refined and functional across different digital platforms.
 
-Another resource you can check out is this full-fledged Udemy course on [Mastering Responsive Web Design CSS Grid, Flexbox & Animations](https://www.udemy.com/course/master-responsive-web-design-css-grind-flexbox-animations/?kw=master+css+flexbox&src=sac) by Norbert B. Menyhart. It is one of my most recommended courses for a beginner to master the art of CSS layout systems, besides the official documentation.
+### Additional Resources
+
+Check out this full-fledged Udemy course on [Mastering Responsive Web Design CSS Grid, Flexbox & Animations](https://www.udemy.com/course/master-responsive-web-design-css-grind-flexbox-animations/?kw=master+css+flexbox&src=sac) by Norbert B. Menyhart. It is one of my most recommended courses for a beginner to master the art of CSS layout systems, besides the official documentation.
+
+Test your knowledge of CSS Flexbox by playing this [game](https://flexboxfroggy.com/) and completing all levels.
 
 *In our next article, we are going to explore the third topic in this series,* ***Mastering Responsive Web Design Layout for Seamless User Experiences***, which is the CSS Grid Layout. Stay tuned by subscribing to my newsletter to be notified when it is released.
 
